@@ -15,7 +15,7 @@ jobs:
       - checkout
       - aws-cli/setup
       - browser-tools/install-chrome:
-          chrome-version: 100
+          chrome-version: '100'
       - browser-tools/install-chromedriver
       - run:
           command: |
