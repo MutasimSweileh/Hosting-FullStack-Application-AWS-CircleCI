@@ -14,8 +14,7 @@ jobs:
           node-version: '14.15'
       - checkout
       - aws-cli/setup
-      - browser-tools/install-chrome:
-          chrome-version: '100.0.4896.79'
+      - browser-tools/install-chrome
       - browser-tools/install-chromedriver
       - run:
           command: |
@@ -31,11 +30,6 @@ jobs:
           name: Front-End Tests
           command: |
             npm run frontend:test
-      - run:
-          name: Front-End End-to-end Testing
-          command: |
-            npm run frontend:e2e
-
       # Building the frontend
       - run:
           name: Front-End Build
