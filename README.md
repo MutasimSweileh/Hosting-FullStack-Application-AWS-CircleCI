@@ -27,7 +27,7 @@ The project can run but is missing some information to connect to the database a
 
 ### Project Setup
 
-1. Clone the project - `git clone https://github.com/Storm-Maker/Hosting-Fullstack-AWS.git`
+1. Clone the project - `git clone https://github.com/MutasimSweileh/Hosting-FullStack-Application-AWS-CircleCI.git`
 2. Go into the project directory - `cd udagram-frontend`
 3. Install the dependencies - `npm install`
 4. Start the frontend - `npm run start`
@@ -40,7 +40,7 @@ The project can run but is missing some information to connect to the database a
 
 This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
 
-1. `cd starter/udagram-frontend`
+1. `cd udagram-frontend`
 1. `npm run test`
 1. `npm run e2e`
 
