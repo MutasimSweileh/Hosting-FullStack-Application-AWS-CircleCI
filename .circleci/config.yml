@@ -14,7 +14,8 @@ jobs:
           node-version: '14.15'
       - checkout
       - aws-cli/setup
-      - browser-tools/install-chrome
+      - browser-tools/install-chrome:
+          chrome-version: 100.0.4183.102
       - browser-tools/install-chromedriver
       - run:
           command: |
