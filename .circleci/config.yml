@@ -19,10 +19,6 @@ jobs:
           command: |
             npm run frontend:install
       - run:
-          name: Front-End Install Karma Cli
-          command: |
-            npm run frontend:karmaCli
-      - run:
           name: Front-End Tests
           command: |
             npm run frontend:test
