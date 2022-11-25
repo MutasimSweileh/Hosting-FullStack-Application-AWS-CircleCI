@@ -9,7 +9,7 @@ jobs:
     docker:
       - image: 'cimg/base:stable'
     steps:
-      - node/install
+      - node/install 14.15
       - checkout
       - aws-cli/setup
       # Installing the frontend dependencies
