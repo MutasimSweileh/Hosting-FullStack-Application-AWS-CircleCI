@@ -1,5 +1,5 @@
 # Deploy to AWS EB
 # cd ./www
-eb init Udagram --region us-east-1
-eb use Udagram-env
-eb deploy Udagram-env
+eb init $EB_APP_NAME --region $AWS_DEFAULT_REGION
+eb use $EB_APP
+eb deploy $EB_APP

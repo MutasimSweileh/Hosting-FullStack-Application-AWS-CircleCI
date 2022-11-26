@@ -43,9 +43,9 @@ A more in depth documentation into the application.
 - RDS - Database Port: 5432
 - RDS - Database Name: project
 
-- S3 Endpoint - Frontend: http://myprojectbucketz.s3-website-us-east-1.amazonaws.com/
+- S3 Endpoint - Frontend: http://myawsbucketmutasim.s3-website-us-east-1.amazonaws.com/
 
-- Elastic Beanstalk URL - Backend: http://myawsbucketmutasim.s3-website-us-east-1.amazonaws.com/
+- Elastic Beanstalk URL - Backend: http://mutasim-udagram.us-east-1.elasticbeanstalk.com/
 
 ## Environment Variables
 
@@ -63,6 +63,8 @@ Setup the following variables in the .env file or in the cloud environments:
 - AWS_REGION          = <us-east-1>
 - AWS_PROFILE         = <Profile>
 - AWS_BUCKET          = <Bucket_Name>
+- EB_APP          = <Elasticbeanstalk_ENV_APP>
+- EB_APP_NAME          = <Elasticbeanstalk_ENV_Name>
 ```
 
 ## Pipeline
