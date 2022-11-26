@@ -9,8 +9,8 @@
 // };
 export const environment = {
   production: true,
-  appName: 'mutasim-udagram',
-  apiHost: 'http://mutasim-udagram.us-east-1.elasticbeanstalk.com/api/v0/'
+  appName: 'MutasimUdagram',
+  apiHost: 'http://mutasim-udagram.us-east-1.elasticbeanstalk.com/api/v0'
 };
 
 /*
